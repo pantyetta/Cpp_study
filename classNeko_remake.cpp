@@ -5,7 +5,6 @@ using namespace std;
 
 class Neko
 {
-private:
     string name;
 public:
     Neko(string s) : name(s){}
