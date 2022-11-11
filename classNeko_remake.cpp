@@ -7,12 +7,15 @@ class Neko
 {
     string name;
 public:
-    Neko(string s) : name(s){}
-    void naku() const{
-        cout << "I'm " << name << " nya!" << endl;
-    }
+    Neko(string s);
+    void naku() const;
 };
 
+Neko::Neko(string s) : name(s){}
+void Neko::naku() const{
+    cout << "I'm " << name << " nya!" << endl;
+}
+ 
 int main(){
     string s;
     cout << "Please cat name" << endl;
